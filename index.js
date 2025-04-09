@@ -10,8 +10,8 @@ Function initializes ElevenLabs API.
 @param {Object} - An object containing the API Key and API Version [default: ElevenLabs V1].
 */
 function ElevenLabs(options = {
-    apiKey: "",
-    voiceId: ""
+    apiKey: "sk_30a86c18ac09ef4bbdb1f25c540737ef00c05ba635e35923",
+    voiceId: "9BWtsMINqrJLrRacOk9x"
 }) {
 
     this.apiKey = options.apiKey ? options.apiKey : "";
